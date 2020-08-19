@@ -27,7 +27,7 @@ export class CdkpipelinesDemoPipelineStack extends Stack {
         owner: 'SatyaHarish9',
         repo: 'cdkpipelines',
       }),
-
+        //Test
        // How it will be built and synthesized
        synthAction: SimpleSynthAction.standardNpmSynth({
          sourceArtifact,
