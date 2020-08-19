@@ -11,7 +11,7 @@ new CdkpipelinesDemoStack(app, 'CdkpipelinesDemoStack');
 const app = new App();
 
 new CdkpipelinesDemoPipelineStack(app, 'CdkpipelinesDemoPipelineStack', {
-  env: { account: 'ACCOUNT1', region: 'us-east-2' },
+  env: { account: '687214303997', region: 'us-east-2' },
 });
 
 app.synth();
